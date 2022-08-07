@@ -1,0 +1,12 @@
+.Pokedex {
+    list-style: none;
+    padding: 0;
+}
+
+.Pokedex-win {
+    color: limegreen;
+}
+
+.Pokedex-lose {
+    color: tomato;
+}

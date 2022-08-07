@@ -1,0 +1,24 @@
+.Pokecard {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 0;
+    margin: 10px;
+    list-style: none;
+    width: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
+}
+
+.Pokecard-title {
+    color: blue;
+}
+
+.Pokecard-image {
+    width: 80%;
+    transition: transform .2s; /* Animation */
+}
+
+.Pokecard-image:hover {
+    transform: scale(1.5);
+}
